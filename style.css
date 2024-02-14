@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./pic3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  margin: 20px;
+	min-height: 100vh;
+}
+
+.container {
+  background-color: #af6d1f;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 90%;
+  max-width: 400px; 
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.header {
+  border-bottom: 1px solid white;
+  background-color: #4c2406;
+  padding: 20px;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.form {
+  padding: 20px;
+  width: 100%;
+}
+
+.form-control {
+  position: relative;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 1px;
+}
+
+.form-control input,
+.form-control select {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.8rem;
+  padding: 0.4rem;
+  width: 100%;
+}
+
+.form-control input:focus,
+.form-control select:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.form > div:last-child {
+  display: flex;
+  justify-content: center;
+}
+
+.form button {
+  background-color: #4c2406;
+  border: 2px solid #4c2406;
+  border-radius: 4px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 10px;
+  width: 40%;
+  margin: 20px 5px;
+}
+
+.reset {
+  margin-top: 1rem;
+}
+.submit {
+  margin-top: 1rem;
+}
+
+.form > div:not(.header) + div:not(:last-child) {
+  margin-top: 4px;
+}
+
+.formop button {
+  background-color: #4c2406;
+  border: 2px solid #4c2406;
+  border-radius: 4px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 10px;
+  width: 40%;
+  margin: 20px 5px;
+}
+
+.formop input,
+.formop select {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.8rem;
+  padding: 0.4rem;
+  width: 100%;
+}
+.formop {
+  padding: 20px;
+  width: 100%;
+}
+.formop > div:last-child {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .container {
+    width:80%;
+  }
+  
+  
+}
