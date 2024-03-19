@@ -13,7 +13,7 @@ Project developed during a quick course on JavaScript
 </p>
 
 <div align="center">
-<a href="https://bankaccountt.netlify.app/">⚙️See how it works</a>
+<a href="https://lorenagrazy.github.io/_bankaccount/">⚙️See how it works</a>
 </div>  
 
 <br>
